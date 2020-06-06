@@ -1,6 +1,5 @@
 module.exports = {
-  webpack(config) {
-    config.node = { fs: 'empty' }
-    return config
-  }
+  env: {
+    INFURA_ID: '88e07e1dc8cf43669067e4c711299bad',
+  },
 }

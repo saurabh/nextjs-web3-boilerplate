@@ -12,7 +12,7 @@ const Index = () => {
         type: 'SET_WEB3',
         payload: web3
       });
-      const [address] = await web3.eth.getAccounts();
+      let [address] = await web3.eth.getAccounts();
       dispatch({
         type: 'SET_ADDRESS',
         payload: address
@@ -27,10 +27,21 @@ const Index = () => {
         type: 'SET_BALANCE',
         payload: balance
       });
+      // refreshes the dapp when a different address is selected in metamask
+      setInterval(async function() {
+        let [addressCheck] = await web3.eth.getAccounts();
+        if (addressCheck !== address) {
+          address = addressCheck;
+          dispatch({
+            type: 'SET_ADDRESS',
+            payload: address
+          });
+        }
+      }, 100);
     }
 
     dispatchDapp();
-  }, []);
+  }, [dapp.web3, dapp.address, dapp.balance]);
   
   return (
     <>
