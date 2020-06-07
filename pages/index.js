@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useStateValue } from '../state';
-import web3 from '../utils/getWeb3';
+import getWeb3 from '../utils/getWeb3';
 import addrShortener from '../utils/addrShortener';
 
 const Index = () => {
@@ -8,6 +8,7 @@ const Index = () => {
 
   useEffect(() => {
     async function dispatchDapp() {
+      const web3 = await getWeb3();
       dispatch({
         type: 'SET_WEB3',
         payload: web3
