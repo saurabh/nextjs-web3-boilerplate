@@ -8,13 +8,13 @@ To get started:
 
 Add a next.config.js file in the root dir to use .env variables within your project.
 
-`
+```
 module.exports = {
   env: {
-    INFURA_ID: 'X',
-  },
+    INFURA_ID: 'X'
+  }
 }
-`
+```
 
 ## Project Structure is as follows:
 
