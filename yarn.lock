@@ -1831,7 +1831,7 @@ browserify-sign@^4.0.0:
     browserify-rsa "^4.0.1"
     create-hash "^1.2.0"
     create-hmac "^1.1.7"
-    elliptic "^6.5.2"
+    elliptic "^6.5.3"
     inherits "^2.0.4"
     parse-asn1 "^5.1.5"
     readable-stream "^3.6.0"
@@ -2365,7 +2365,7 @@ create-ecdh@^4.0.0:
   integrity sha512-GbEHQPMOswGpKXM9kCWVrremUcBmjteUaQ01T9rkKCPDXfUHX0IoP9LpHYo2NPFampa4e+/pFDc3jQdxrxQLaw==
   dependencies:
     bn.js "^4.1.0"
-    elliptic "^6.0.0"
+    elliptic "^6.5.3"
 
 create-hash@^1.1.0, create-hash@^1.1.2, create-hash@^1.2.0:
   version "1.2.0"
@@ -2825,8 +2825,8 @@ electron-to-chromium@^1.3.413:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.459.tgz#49a43d78f60b5bf42312b636f3af43c695e0c652"
   integrity sha512-aN3Z89qEYIwVjzGi9SrcTjjopRZ3STUA6xTufS0fxZy8xOO2iqVw8rYKdT32CHgOKHOYj5KGmz3n6xUKE4QJiQ==
 
-elliptic@^6.0.0, elliptic@^6.4.0, elliptic@^6.5.2:
-  version "6.5.2"
+elliptic@^6.5.3:
+  version "6.5.3"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.2.tgz#05c5678d7173c049d8ca433552224a495d0e3762"
   integrity sha512-f4x70okzZbIQl/NSRLkI/+tteV/9WqL98zx+SQ69KbXxmVrmjwsNUPn/gYJJ0sHvEak24cZgHIPegRePAtA/xw==
   dependencies:
@@ -3004,7 +3004,7 @@ eth-lib@0.2.7:
   integrity sha1-L5Pxex4jrsN1nNSj/iDBKGo/wco=
   dependencies:
     bn.js "^4.11.6"
-    elliptic "^6.4.0"
+    elliptic "^6.5.3"
     xhr-request-promise "^0.1.2"
 
 eth-lib@^0.1.26:
@@ -3013,7 +3013,7 @@ eth-lib@^0.1.26:
   integrity sha512-bfttrr3/7gG4E02HoWTDUcDDslN003OlOoBxk9virpAZQ1ja/jDgwkWB8QfJF7ojuEowrqy+lzp9VcJG7/k5bQ==
   dependencies:
     bn.js "^4.11.6"
-    elliptic "^6.4.0"
+    elliptic "^6.5.3"
     nano-json-stream-parser "^0.1.2"
     servify "^0.1.12"
     ws "^3.0.0"
@@ -3025,7 +3025,7 @@ eth-lib@^0.2.8:
   integrity sha512-ArJ7x1WcWOlSpzdoTBX8vkwlkSQ85CjjifSZtV4co64vWxSV8geWfPI9x4SVYu3DSxnX4yWFVTtGL+j9DUFLNw==
   dependencies:
     bn.js "^4.11.6"
-    elliptic "^6.4.0"
+    elliptic "^6.5.3"
     xhr-request-promise "^0.1.2"
 
 ethereum-bloom-filters@^1.0.6:
@@ -6173,7 +6173,7 @@ secp256k1@^3.0.1:
     bn.js "^4.11.8"
     create-hash "^1.2.0"
     drbg.js "^1.0.1"
-    elliptic "^6.5.2"
+    elliptic "^6.5.3"
     nan "^2.14.0"
     safe-buffer "^5.1.2"
 
